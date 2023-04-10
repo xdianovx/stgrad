@@ -1,0 +1,33 @@
+.section {
+  padding-top: 290px;
+  /* height: 100vh; */
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+@screen xl {
+  .section {
+    margin-top: 200px;
+  }
+}
+
+@screen lg {
+  .section {
+    margin-top: 160px;
+  }
+}
+
+@screen md {
+  .section {
+    margin-top: 120px;
+  }
+}
+
+@screen sm {
+  .section {
+    margin-top: 140px;
+  }
+}
